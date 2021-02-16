@@ -1,23 +1,23 @@
 <?php
-    $settingsInfo = array (
+    $settingsInfo = array(
         'strict' => false,
         'debug' => false,
-        'sp' => array (
+        'sp' => array(
             'entityId' => 'http://stuff.com/endpoints/metadata.php',
-            'assertionConsumerService' => array (
+            'assertionConsumerService' => array(
                 'url' => 'http://stuff.com/endpoints/endpoints/acs.php',
             ),
-            'singleLogoutService' => array (
+            'singleLogoutService' => array(
                 'url' => 'http://stuff.com/endpoints/endpoints/sls.php',
             ),
             'NameIDFormat' => 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified',
         ),
-        'idp' => array (
+        'idp' => array(
             'entityId' => 'http://idp.example.com/',
-            'singleSignOnService' => array (
+            'singleSignOnService' => array(
                 'url' => 'http://idp.example.com/SSOService.php',
             ),
-            'singleLogoutService' => array (
+            'singleLogoutService' => array(
                 'url' => 'http://idp.example.com/SingleLogoutService.php',
                 'responseUrl' => 'http://idp.example.com/SingleLogoutServiceResponse.php',
             ),
@@ -27,23 +27,23 @@
             'requests' => true,
             'responses' => true
         ),
-        'security' => array (
+        'security' => array(
             'authnRequestsSigned' => false,
             'wantAssertionsSigned' => false,
             'signMetadata' => false,
         ),
-        'contactPerson' => array (
-            'technical' => array (
+        'contactPerson' => array(
+            'technical' => array(
                 'givenName' => 'technical_name',
                 'emailAddress' => 'technical@example.com',
             ),
-            'support' => array (
+            'support' => array(
                 'givenName' => 'support_name',
                 'emailAddress' => 'support@example.com',
             ),
         ),
 
-        'organization' => array (
+        'organization' => array(
             'en-US' => array(
                 'name' => 'sp_test',
                 'displayname' => 'SP test',
